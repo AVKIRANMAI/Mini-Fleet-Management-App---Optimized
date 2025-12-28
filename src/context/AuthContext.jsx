@@ -19,7 +19,7 @@ export function AuthProvider({ children }) {
 
   const login = useCallback((email, password) => {
     // Assignment rule: valid credentials
-    if (email === 'admin' && password === 'admin') {
+    if (email === 'admin@gmail.com' && password === 'admin1234') {
       setIsAuthenticated(true)
       return { ok: true }
     }

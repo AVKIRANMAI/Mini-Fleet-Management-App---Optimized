@@ -39,7 +39,7 @@ export default function Login() {
           <input
             value={email}
             onChange={(e) => setEmail(e.target.value)}
-            placeholder="admin"
+            placeholder="username"
             autoComplete="username"
           />
         </label>
@@ -50,7 +50,7 @@ export default function Login() {
             type="password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
-            placeholder="admin"
+            placeholder="password"
             autoComplete="current-password"
           />
         </label>
@@ -60,7 +60,7 @@ export default function Login() {
         <button type="submit">Login</button>
       </form>
       <p style={{ marginTop: '0.5rem', fontSize: 12, color: '#666' }}>
-        Hint: email "admin", password "admin"
+        {/* Hint: email "admin", password "admin" */}
       </p>
     </div>
   )
